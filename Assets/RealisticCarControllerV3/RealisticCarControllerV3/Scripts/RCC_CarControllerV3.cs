@@ -2428,7 +2428,7 @@ public class RCC_CarControllerV3 : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Hell"))
+       // if (other.gameObject.CompareTag("Hell"))
         {
            // Debug.Log("Respawning");
             //LapManager.instance.ReSpawm(this.gameObject);
